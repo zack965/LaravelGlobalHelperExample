@@ -370,3 +370,7 @@ class User extends Authenticatable
 </nav>
 
 ```
+- and in the last part you should run this command so the composer will load our helper 
+```bash
+composer dump-autoload
+```
